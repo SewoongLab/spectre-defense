@@ -1,0 +1,6 @@
+[submodule "over9000"]
+	path = over9000
+	url = git@github.com:PythonNut/over9000.git
+[submodule "pytorch_cifar"]
+	path = pytorch_cifar
+	url = git@github.com:kuangliu/pytorch-cifar.git
