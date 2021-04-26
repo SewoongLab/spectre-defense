@@ -30,7 +30,8 @@ class SequentialImageNetwork(nn.Sequential):
         self.net_holder = (net,)
         i = 1
         layers = []
-        while hasattr(net, name := f"layer{i}"):
+        name = f"layer{i}"
+        while hasattr(net, name):
             layers.extend(list(getattr(net, name)))
             i += 1
 
@@ -102,7 +103,8 @@ class SequentialImageNetworkMod(nn.Sequential):
         self.net_holder = (net,)
         i = 1
         layers = []
-        while hasattr(net, name := f"layer{i}"):
+        name = f"layer{i}"
+        while hasattr(net, name):
             layers.extend(list(getattr(net, name)))
             i += 1
 
