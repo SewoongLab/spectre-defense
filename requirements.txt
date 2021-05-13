@@ -5,7 +5,6 @@ colorama==0.4.4; python_version >= "3.7" and python_full_version < "3.0.0" and s
 decorator==5.0.7; python_version >= "3.7"
 ipython-genutils==0.2.0; python_version >= "3.7"
 ipython==7.22.0; python_version >= "3.7"
-irlbpy @ git+https://github.com/boonepeter/irlbpy@pgb
 isort==5.8.0; python_version >= "3.6" and python_version < "4.0"
 jedi==0.18.0; python_version >= "3.7"
 lazy-object-proxy==1.6.0; python_version >= "3.6" and python_full_version < "3.0.0" and python_version < "4.0" or python_version >= "3.6" and python_version < "4.0" and python_full_version >= "3.6.0"
