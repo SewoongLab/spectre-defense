@@ -1,28 +1,5 @@
-appnope==0.1.2; sys_platform == "darwin" and python_version >= "3.7"
-astroid==2.5.6; python_version >= "3.6" and python_version < "4.0"
-backcall==0.2.0; python_version >= "3.7"
-colorama==0.4.4; python_version >= "3.7" and python_full_version < "3.0.0" and sys_platform == "win32" and python_version < "4.0" or sys_platform == "win32" and python_version >= "3.7" and python_full_version >= "3.5.0" and python_version < "4.0"
-decorator==5.0.7; python_version >= "3.7"
-ipython-genutils==0.2.0; python_version >= "3.7"
-ipython==7.22.0; python_version >= "3.7"
-isort==5.8.0; python_version >= "3.6" and python_version < "4.0"
-jedi==0.18.0; python_version >= "3.7"
-lazy-object-proxy==1.6.0; python_version >= "3.6" and python_full_version < "3.0.0" and python_version < "4.0" or python_version >= "3.6" and python_version < "4.0" and python_full_version >= "3.6.0"
-mccabe==0.6.1; python_version >= "3.6" and python_version < "4.0"
-numpy==1.20.2; python_version >= "3.7" and python_full_version >= "3.6.2"
-parso==0.8.2; python_version >= "3.7"
-pexpect==4.8.0; sys_platform != "win32" and python_version >= "3.7"
-pickleshare==0.7.5; python_version >= "3.7"
-pillow==8.2.0; python_version >= "3.6"
-prompt-toolkit==3.0.18; python_full_version >= "3.6.1" and python_version >= "3.7"
-ptyprocess==0.7.0; sys_platform != "win32" and python_version >= "3.7"
-pygments==2.8.1; python_version >= "3.7"
-pylint==2.8.1; python_version >= "3.6" and python_version < "4.0"
-toml==0.10.2; python_version >= "3.6" and python_full_version < "3.0.0" and python_version < "4.0" or python_version >= "3.6" and python_version < "4.0" and python_full_version >= "3.3.0"
-torch==1.7.1; python_full_version >= "3.6.2"
-torchvision==0.8.2
-tqdm==4.60.0; (python_version >= "2.7" and python_full_version < "3.0.0") or (python_full_version >= "3.4.0")
-traitlets==5.0.5; python_version >= "3.7"
-typing-extensions==3.7.4.3; python_full_version >= "3.6.2"
-wcwidth==0.2.5; python_full_version >= "3.6.1" and python_version >= "3.7"
-wrapt==1.12.1; python_version >= "3.6" and python_version < "4.0"
+numpy~=1.20.2
+pillow~=8.2.0
+torch~=1.7.1
+torchvision~=0.8.2
+tqdm~=4.60.0
