@@ -34,6 +34,7 @@ class SequentialImageNetwork(nn.Sequential):
         while hasattr(net, name):
             layers.extend(list(getattr(net, name)))
             i += 1
+            name = f"layer{i}"
 
         layers2 = []
         for layer in layers:
@@ -107,6 +108,7 @@ class SequentialImageNetworkMod(nn.Sequential):
         while hasattr(net, name):
             layers.extend(list(getattr(net, name)))
             i += 1
+            name = f"layer{i}"
 
         super().__init__(
             net.conv1,
