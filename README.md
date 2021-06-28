@@ -75,7 +75,7 @@ This produces three files in `output/$name/`:
 **Retrain the networks on the cleaned datasets**
 
 ```bash
-poetry run python retrain.py $name $mask_name
+poetry run python train.py $name $mask_name
 ```
 
 This reads the mask from `output/$name/$mask_name.npy` and trains the network from scratch on the resulting masked dataset.
